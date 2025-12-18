@@ -2,7 +2,7 @@
 
 A comprehensive system that uses Large Language Models to process natural language queries and retrieve relevant information from large unstructured documents such as policy documents, contracts, and emails.
 
-## ⁺₊✧ Features
+## Features
 
 - **Multi-format Document Processing**: Supports PDFs, DOCX, and email documents
 - **Semantic Search**: Uses FAISS and sentence transformers for intelligent document retrieval
@@ -11,14 +11,14 @@ A comprehensive system that uses Large Language Models to process natural langua
 - **Production Ready**: Includes monitoring, caching, and optimization features
 - **Scalable Architecture**: Modular design with containerization support
 
-## 🗒 Requirements
+## Requirements
 
 - Python 3.11+
 - PostgreSQL 12+
 - Ollama (for LLM models)
 - Docker (optional, for containerized deployment)
 
-## 🛠 Installation
+## Installation
 
 ### Quick Start (Docker)
 
@@ -146,7 +146,7 @@ python test_api.py
 python load_test.py --url http://localhost:8000 --token YOUR_TOKEN --users 10 --requests 5
 ```
 
-## 📊 Performance Monitoring
+## Performance Monitoring
 
 ### System Metrics
 ```bash
@@ -161,7 +161,7 @@ The system automatically logs performance metrics to `performance.log` and the d
 python batch_processor.py
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Google Cloud Platform
 
@@ -191,7 +191,7 @@ chmod +x deploy/deploy.sh
 ./deploy/deploy.sh
 ```
 
-## 🔍 Architecture
+## Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -210,7 +210,7 @@ chmod +x deploy/deploy.sh
                                                └─────────────────┘
 ```
 
-## 🔧 Optimization Tips
+## Optimization Tips
 
 1. **Document Processing**
    - Use smaller chunk sizes (800-1000) for better precision
@@ -227,7 +227,7 @@ chmod +x deploy/deploy.sh
    - Use connection pooling for database
    - Monitor system resources and scale as needed
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -259,7 +259,7 @@ chmod +x deploy/deploy.sh
    - Monitor system resources
    - Consider scaling to multiple instances
 
-## 📝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -273,11 +273,5 @@ chmod +x deploy/deploy.sh
 For support and questions:
 - Create an issue in the repository
 - Check the troubleshooting section
-
-## 🔄 Version History
-
-- **v1.0.0**: Initial release with core functionality
-- **v1.1.0**: Added caching and performance optimizations
-- **v1.2.0**: Enhanced error handling and monitoring
 
 ---
