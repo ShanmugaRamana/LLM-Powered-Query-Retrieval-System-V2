@@ -79,7 +79,7 @@ MAX_TOKENS=4000
 TEMPERATURE=0.1
 ```
 
-## 📖 API Documentation
+## API Documentation
 
 ### Base URL
 ```
@@ -273,5 +273,3 @@ chmod +x deploy/deploy.sh
 For support and questions:
 - Create an issue in the repository
 - Check the troubleshooting section
-
----
